@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav-bar">
+            <img src="images/pngwing.com.png" alt="" id="header-img"><a class="navbar-brand" href="#">Sky Logistics</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#form">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#footer">Contact us</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </div>
+            </div>
+          </nav>
+
+          <h1 id="title"><em>DELEVER YOUR PARCEL WITH EASE</em></h1>
+    </header>
+
+    <form action=" https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">Sign in Now : 
+                <input type="email" placeholder="enter your email" id="email" name="email" required>
+                <img src="images/pngwing. truck (1).png" alt="truck image" id="truck">
+            </label>
+            <div class="submit-btn">
+                <input type="submit" id="submit" value="Sign in">
+            </div>
+            
+    </form>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BuvV5CPNAX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+
+    <!--pricing-->
+
+    <section id="pricing">
+
+        <h2 class="section-heading">Affordable plans.</h2>
+        <p>Plans suited to your need.</p>
+
+        <div class="row" id="row-pricing">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Basic</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">9$ per batch</h2>
+                        <p>Dispatch within 7 days</p>
+                        <p>No international service</p>
+                        <p>No heavy load.</p>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Speed X</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">19$ per batch</h2>
+                        <p>Dispatch within 2 days</p>
+                        <p>No international service</p>
+                        <p>Limited heavy load.</p>
+                        <p>Full damage protection.</p>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Lightning</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">49$ per batch</h2>
+                        <p>Dispatch within 1 day</p>
+                        <p>Worldwide service</p>
+                        <p>Unlimited heavy load under limit.</p>
+                        <p>Full damage protection.</p>
+                        <p>Quickest delevery</p>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-panel">
+        <footer id="footer">
+            <div class="follow-icons">
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+            </div>
+
+            <p class="copyright-text">© Copyright 2022 NET<em> Armour</em></p>
+
+        </footer>
+    </div>
+
+</body>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</html>
